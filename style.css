@@ -1,0 +1,88 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav {
+    padding: 10px;
+}
+
+.nav a {
+    color: #333;
+}
+
+#home {
+    background-image: url(./img/IMG_0436.JPG);
+    /* Used if the image is unavailable */
+    background-color: #cccccc;
+    /* You must set a specified height */
+    height: 500px;
+    /* Center the image */
+    background-position: center;
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+    /* Resize the background image to cover the entire container */
+    background-size: cover;
+}
+
+.jumbotron {
+    opacity: 0.5;
+    color: #fff;
+    background-color: #000;
+    margin-top: 10%;
+}
+
+.purpose {
+    color: #fff;
+    margin-top: 10%;
+}
+
+#objectives {
+    height: 200px;
+    border: none;
+    color: #fff;
+}
+
+#objectives .one {
+    background-color: rgb(105, 119, 105);
+    padding: 30px;
+}
+
+#objectives .two {
+    background-color: rgb(177, 202, 177);
+    padding: 30px;
+    color: #eee;
+}
+
+#objectives .three {
+    background-color: rgb(177, 105, 23);
+    padding: 30px;
+}
+
+#conferences {
+    padding: 40px;
+}
+
+.projects {
+    margin: 30px;
+}
+
+.projects .card-block {
+    padding: 30px;
+}
+
+.newsletter {
+    padding: 30px;
+    background-color: rgb(177, 202, 177);
+}
+
+.contact {
+    padding: 20px;
+    background-color: rgb(105, 119, 105);
+    color: #eee;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10px;
+}
